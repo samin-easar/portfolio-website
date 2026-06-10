@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects | Samin Easar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-bar">
+        <div class="brand-wrapper">
+          <img
+            src="assets/logos/MyLogo.png"
+            alt="SE Logo"
+            class="nav-logo-asset"
+          />
+          <span class="brand-logo">Samin Easar</span>
+        </div>
+        <div class="nav-right-container">
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="experience.html" class="nav-link">Experience</a></li>
+            <li><a href="resume.html" class="nav-link">Resume</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <button class="theme-switch-widget" id="globalThemeToggler">
+            <i class="fas fa-sun"></i>
+          </button>
+          <button class="mobile-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="view-wrapper">
+      <div class="center-heading-block">
+        <h1>My Projects</h1>
+        <p>Showcasing my development work</p>
+      </div>
+
+      <div class="filter-button-container">
+        <button class="filter-trigger active" data-filter-target="all">
+          All
+        </button>
+        <button class="filter-trigger" data-filter-target="mobile">
+          Mobile Apps
+        </button>
+        <button class="filter-trigger" data-filter-target="game">
+          Game Development
+        </button>
+        <button class="filter-trigger" data-filter-target="web">
+          Web Development
+        </button>
+      </div>
+
+      <section class="showcase-grid">
+        <div class="glass-card showcase-card" data-project-category="mobile">
+          <div class="showcase-visual">
+            <img
+              src="assets/images/TeleHeal-image.png"
+              alt="TeleHeal 24/7 Health Care Android App"
+            />
+          </div>
+          <div class="showcase-details">
+            <h3>TeleHeal 24/7</h3>
+            <p>
+              Android healthcare app for online consultation, appointment
+              booking and health records.
+            </p>
+            <div class="tag-cloud">
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">Firebase</span>
+              <span class="tech-pill">Android Studio</span>
+            </div>
+            <a href="project-details.html" class="showcase-action-anchor"
+              >Explore Project →</a
+            >
+          </div>
+        </div>
+
+        <div class="glass-card showcase-card" data-project-category="game">
+          <div class="showcase-visual">
+            <img
+              src="assets/images/2D-game-image.png"
+              alt="Street Challenges, 2D Racing Car Game"
+            />
+          </div>
+          <div class="showcase-details">
+            <h3>Street Challenges</h3>
+            <p>
+              2D racing game built using C++ and basic graphics libraries with
+              collision detection.
+            </p>
+            <div class="tag-cloud">
+              <span class="tech-pill">C++</span>
+              <span class="tech-pill">iGraphics</span>
+              <span class="tech-pill">Visual Studio</span>
+            </div>
+            <a href="#" class="showcase-action-anchor">Explore Project →</a>
+          </div>
+        </div>
+
+        <div class="glass-card showcase-card" data-project-category="web">
+          <div class="showcase-visual">
+            <img
+              src="assets/images/portfolio-web-image.png"
+              alt="Samin Easar Portfolio Image"
+            />
+          </div>
+          <div class="showcase-details">
+            <h3>Personal Portfolio</h3>
+            <p>
+              My personal portfolio website to showcase my skills, projects and
+              experience.
+            </p>
+            <div class="tag-cloud">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">JavaScript</span>
+            </div>
+            <a href="#" class="showcase-action-anchor">Explore Project →</a>
+          </div>
+        </div>
+
+        <div class="glass-card showcase-card" data-project-category="web">
+          <div class="showcase-visual">
+            <img
+              src="assets/images/upcoming-image.jpg"
+              alt="Upcoming Project Image"
+            />
+          </div>
+          <div class="showcase-details">
+            <h3>Upcoming Project</h3>
+            <p>
+              Another website comming soon to showcase my skills on HTML, CSS &
+              JavaScript.
+            </p>
+            <div class="tag-cloud">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">JavaScript</span>
+            </div>
+            <a href="#" class="showcase-action-anchor">Explore Project →</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Details | Samin Easar</title>
+    <link class="stylesheet" href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-bar">
+        <div class="brand-wrapper">
+          <img
+            src="assets/logos/MyLogo.png"
+            alt="SE Logo"
+            class="nav-logo-asset"
+          />
+          <span class="brand-logo">Samin Easar</span>
+        </div>
+        <div class="nav-right-container">
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="experience.html" class="nav-link">Experience</a></li>
+            <li><a href="resume.html" class="nav-link">Resume</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <button class="theme-switch-widget" id="globalThemeToggler">
+            <i class="fas fa-sun"></i>
+          </button>
+          <button class="mobile-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="view-wrapper">
+      <div class="back-nav-container">
+        <a href="projects.html" class="back-link"
+          ><i class="fas fa-arrow-left"></i> Back to Projects</a
+        >
+      </div>
+
+      <section class="detail-split-layout">
+        <div class="detail-mockup-wrapper">
+          <div class="phone-frame-container">
+            <img
+              src="assets/images/TeleHeal-detail-image.png"
+              alt="TeleHeal Internal Architecture UI Layout"
+            />
+          </div>
+        </div>
+
+        <div class="detail-info-pane">
+          <h1>TeleHeal 24/7 Health <br />Care App</h1>
+          <p>
+            TeleHeal 24/7 is an Android application that connects patients with
+            doctors for online consultations. Patients can register, book
+            appointments, and chat with doctors securely. The app uses Firebase
+            for user authentication, real-time database, and storage to ensure a
+            smooth and secure experience.
+          </p>
+
+          <div class="detail-meta-stack">
+            <div class="meta-column">
+              <h3>Technologies Used</h3>
+              <div class="tag-cloud">
+                <span class="tech-pill">Java</span>
+                <span class="tech-pill">JavaFX</span>
+                <span class="tech-pill">Firebase</span>
+                <span class="tech-pill">Android Studio</span>
+              </div>
+            </div>
+            <div class="meta-column">
+              <h3>Key Features</h3>
+              <ul class="bullet-features-list">
+                <li><i class="fas fa-check-circle"></i> User Authentication</li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Real-time Consultation
+                  Sync
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Online Doctor Assisting
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i> Secure Data Storage Core
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="detail-actions-row">
+            <a href="#" class="btn btn-solid"
+              >Live Demo <i class="fas fa-external-link-alt"></i
+            ></a>
+            <a
+              href="https://github.com/samin-easar"
+              target="_blank"
+              class="btn btn-outline"
+              >View Code <i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

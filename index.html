@@ -1,9 +1,136 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Samin Easar | Portfolio</title>
+    <title>Portfolio |Samin Easar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <header class="site-header">
+      <nav class="nav-bar">
+        <div class="brand-wrapper">
+          <img
+            src="assets/logos/MyLogo.png"
+            alt="SE Logo Architecture"
+            class="nav-logo-asset"
+          />
+          <span class="brand-logo">Samin Easar</span>
+        </div>
+        <div class="nav-right-container">
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="experience.html" class="nav-link">Experience</a></li>
+            <li><a href="resume.html" class="nav-link">Resume</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <button
+            class="theme-switch-widget"
+            id="globalThemeToggler"
+            aria-label="Toggle Theme Engine"
+          >
+            <i class="fas fa-sun"></i>
+          </button>
+          <button class="mobile-toggle" aria-label="Toggle System Menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="view-wrapper">
+      <section class="hero-layout">
+        <div class="hero-body">
+          <h1 class="hero-title">Hello, I'm <br /><span>Samin Easar</span></h1>
+          <p class="hero-tag">
+            Computer Science Student & Aspiring Software Developer
+          </p>
+          <p class="hero-desc">
+            I'm passionate about building efficient, user-friendly applications
+            and solving real-world problems through code. Always learning,
+            always building.
+          </p>
+
+          <div class="hero-actions">
+            <a href="projects.html" class="btn btn-solid"
+              >View My Work <i class="fas fa-arrow-right"></i
+            ></a>
+            <a href="resume.pdf" download class="btn btn-outline"
+              >Download Resume <i class="fas fa-download"></i
+            ></a>
+          </div>
+
+          <div class="social-circle-row">
+            <a
+              href="https://github.com/samin-easar"
+              target="_blank"
+              class="social-icon"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/samin-easar"
+              target="_blank"
+              class="social-icon"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="contact.html" class="social-icon"
+              ><i class="far fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="hero-graphic">
+          <div class="avatar-halo-ring">
+            <img
+              src="assets/images/MyImage.png"
+              alt="Samin Easar Professional Portrait Picture"
+              class="avatar-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics-strip">
+        <div class="glass-card metric-panel">
+          <div class="metric-glyph-box">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div>
+            <p class="metric-num">3.75</p>
+            <p class="metric-lbl">GPA</p>
+          </div>
+        </div>
+        <div class="glass-card metric-panel">
+          <div class="metric-glyph-box"><i class="fas fa-code"></i></div>
+          <div>
+            <p class="metric-num">3+</p>
+            <p class="metric-lbl">Projects</p>
+          </div>
+        </div>
+        <div class="glass-card metric-panel">
+          <div class="metric-glyph-box"><i class="fas fa-award"></i></div>
+          <div>
+            <p class="metric-num">NSF S-STEM</p>
+            <p class="metric-lbl">Scholar</p>
+          </div>
+        </div>
+        <div class="glass-card metric-panel">
+          <div class="metric-glyph-box"><i class="fas fa-star"></i></div>
+          <div>
+            <p class="metric-num">Dean's List & Provost Award</p>
+            <p class="metric-lbl">Academic Excellence</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
