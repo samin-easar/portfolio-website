@@ -148,7 +148,11 @@ The primary audience consists of Technical recruiters, engineering hiring manage
 
 The visual layouts are mapped out across computer-aided visual blueprints included within the project repository under the following file names:1-Home.jpg, 2-about.jpg, 3-project.jpg, 4-project-details.jpg, 5-skills.png, 6-experience.png, 7-resume.png, 8-contact.png
 
+<<<<<<< HEAD
 ![Wireframe](assets/wireframes/Wireframe-in-one-page.png)
+=======
+![Wireframe](./assets/wireframes/Wirefram-in-one-page.png)
+>>>>>>> 464e96b14d43871fd6477a14e21015ac85df4175
 
 ## **INTERACTION & FUNCTIONALITY**
 
