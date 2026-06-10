@@ -45,9 +45,11 @@ The primary audience consists of Technical recruiters, engineering hiring manage
    --> To start as a Software Engineer and transition into cybersecurity engineering to build robust, secure computing systems.
 
 9. What technologies or tools do you have experience with?
-   --> - Development Tools & Ecosystems: Git/GitHub, Android Studio, Visual Studio, MS Office, Eclipse, Firebase, VS Code, Wireshark etc.
+   -->
 
--Programming Languages: Java, Python, C, C++, HTML, CSS, JavaScript, SQL.
+- Development Tools & Ecosystems: Git/GitHub, Android Studio, Visual Studio, MS Office, Eclipse, Firebase, VS Code, Wireshark etc.
+
+- Programming Languages: Java, Python, C, C++, HTML, CSS, JavaScript, SQL.
 
 10. What achievements or experiences are worth highlighting?
     -->
@@ -146,7 +148,7 @@ The primary audience consists of Technical recruiters, engineering hiring manage
 
 The visual layouts are mapped out across computer-aided visual blueprints included within the project repository under the following file names:1-Home.jpg, 2-about.jpg, 3-project.jpg, 4-project-details.jpg, 5-skills.png, 6-experience.png, 7-resume.png, 8-contact.png
 
-![Wireframe](assets/wireframs/Wireframe-in-one-page.png)
+![Wireframe](./assets/wireframs/Wireframe-in-one-page.png)
 
 ## **INTERACTION & FUNCTIONALITY**
 
